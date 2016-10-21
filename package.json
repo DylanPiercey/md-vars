@@ -1,0 +1,42 @@
+{
+  "name": "md-vars",
+  "description": "Parse variables from a markdown file in a clean and simple format.",
+  "version": "1.0.0",
+  "author": "Dylan Piercey <pierceydylan@gmail.com>",
+  "bugs": "https://github.com/DylanPiercey/md-vars/issues",
+  "devDependencies": {
+    "mocha": "^3.1.2",
+    "rill": "^2.4.0",
+    "snazzy": "^5.0.0",
+    "standard": "^8.4.0"
+  },
+  "homepage": "https://github.com/DylanPiercey/md-vars",
+  "keywords": [
+    "markdown",
+    "md",
+    "md-vars",
+    "variables",
+    "vars"
+  ],
+  "license": "MIT",
+  "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DylanPiercey/md-vars"
+  },
+  "scripts": {
+    "lint": "standard --verbose | snazzy",
+    "mocha": "mocha ./test/*.test.js",
+    "test": "npm run lint && npm run mocha"
+  },
+  "standard": {
+    "globals": [
+      "describe",
+      "it",
+      "before",
+      "beforeEach",
+      "after",
+      "afterEach"
+    ]
+  }
+}
