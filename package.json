@@ -1,7 +1,7 @@
 {
   "name": "md-vars",
   "description": "Parse variables from a markdown file in a clean and simple format.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Dylan Piercey <pierceydylan@gmail.com>",
   "bugs": "https://github.com/DylanPiercey/md-vars/issues",
   "devDependencies": {
