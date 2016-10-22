@@ -5,7 +5,7 @@ var VAR_REG = /^---([\s\S]*)---/
 // Matches the key in a json variable.
 var JSON_KEY_REG = /^ *"?([^:"]+)"? */
 // Matches new lines in json.
-var JSON_NEWLINE_REG = /,?\n/
+var JSON_NEWLINE_REG = /,? *\n/
 // Stores result object.
 var _result = {}
 
